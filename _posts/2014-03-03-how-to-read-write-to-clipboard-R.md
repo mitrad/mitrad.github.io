@@ -2,8 +2,6 @@
 layout: post
 title: "[R] 클립보드를 이용한 데이터 입출력"
 date: 2014-03-03
-categories: R
-tags: [R, base, clipboard]
 ---
 
 

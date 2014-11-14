@@ -2,11 +2,8 @@
 layout: post
 title: "태풍이동경로의 시각화"
 date: 2014-2-28
-categories: R
 tags: [R, dplyr package]
-image: typhoon.png
 ---
-
 
 
 Gaston Sanchez씨의 [Visualizing Hurricane Trajectories](http://rpubs.com/gaston/hurricanes)를 읽고 **dplyr** 패키지 연습도 겸해서 따라 해보기. 

@@ -2,7 +2,6 @@
 layout: post
 title: "[R] 일본어 전각 문자를 반각 문자로 변환"
 date: 2014-03-04
-categories: R
 tags: [R, Nippon package]
 image: keyboard.png
 ---

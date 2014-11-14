@@ -24,7 +24,7 @@ highlighter: pygments
 # Setup
 title:            Woosung Yang
 tagline:          memoRandum for data analytics
-url:              http://wsyang.com
+url:              http://mitrad.github.io
 paginate:         1
 baseurl:          /
 author:
