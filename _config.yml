@@ -1,0 +1,43 @@
+# Oveerriden by GitHub Pages: https://help.github.com/articles/using-jekyll-with-pages#configuring-jekyll
+safe: true
+pygments: true
+lsi: false
+
+markdown:     redcarpet
+
+redcarpet:
+    extensions:
+      - no_intra_emphasis
+      - fenced_code_blocks
+      - tables
+      - strikethrough
+      - superscript
+      - autolink
+      - hard_wrap
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+highlighter: pygments
+
+# Setup
+title:            Woosung Yang
+tagline:          memoRandum for data analytics
+url:              http://wsyang.com
+paginate:         1
+baseurl:          /
+author:
+  name:           Woosung Yang
+  url:            https://twitter.com/wyang72
+  email:          wyang72@gmail.com
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/poole/poole
+
+pages_list:
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
