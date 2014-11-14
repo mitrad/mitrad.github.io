@@ -54,11 +54,11 @@ html {
   font-family: "Nanum Gothic", 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 @media (min-width: 38em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
