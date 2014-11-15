@@ -25,7 +25,7 @@ highlighter: pygments
 title:            Woosung Yang
 tagline:          memoRandum for data analytics
 url:              http://mitrad.github.io
-paginate:         10
+paginate:         20
 baseurl:          /
 author:
   name:           Woosung Yang
