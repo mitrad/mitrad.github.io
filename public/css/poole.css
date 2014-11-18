@@ -346,6 +346,7 @@ tbody tr:nth-child(odd) th {
 .page,
 .post {
   margin-bottom: 4em;
+  text-align:justify;
 }
 
 /* Blog post or page title */
@@ -473,3 +474,20 @@ a.pagination-item:hover {
     font-size: 12px;
     color: #999;
   }
+
+.footer {
+  width: 100%;
+/*  background-color: rgba(240, 240, 240, 0.5); */
+  background-color: #444;
+  color: #aaa;
+  padding: 1.5em 0 1.5em 0;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  clear: both;
+}
+
+.footer a {
+  text-decoration: none;
+  /*color: #53b9c9; /*#0a9cb2;*/
+}
