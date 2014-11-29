@@ -238,6 +238,14 @@ img {
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
+  border: 1px;
+}
+
+img.caption {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #e5e5e5;
 }
 
 /* Tables */

@@ -1,6 +1,10 @@
 ---
 title: '[R] 중복된 Package를 삭제하는 방법'
 layout: post
+permalink: /2008/06/r-tips-%ec%a4%91%eb%b3%b5%eb%90%9c-package%eb%a5%bc-%ec%82%ad%ec%a0%9c%ed%95%98%eb%8a%94-%eb%b0%a9%eb%b2%95/
+dsq_thread_id:
+  - 333573820
+
 categories:
   - R-Tips
 tags:

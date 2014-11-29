@@ -1,0 +1,97 @@
+---
+title: OECD에서 평가한 우리나라의 웰빙지수는?
+author: 양우성
+layout: post
+permalink: /2011/05/oecd%ec%97%90%ec%84%9c-%ed%8f%89%ea%b0%80%ed%95%9c-%ec%9a%b0%eb%a6%ac%eb%82%98%eb%9d%bc%ec%9d%98-%ec%9b%b0%eb%b9%99%ec%a7%80%ec%88%98%eb%8a%94/
+dsq_thread_id:
+  - 316870595
+tmac_last_id:
+  - 274327333052223488
+categories:
+  - 생활속의 통계
+  - 통계 이야기
+tags:
+  - data visualization
+  - OECD
+  - Your Better Life Index
+  - 데이터 시각화
+  - 웰빙
+---
+5월 26일 자 동아일보에 [한국인 36%만 삶에 만족][1]한다는 기사가 실렸습니다. 경제협력개발기구(OECD)가 발표한 &#8216;[Your Better Life Index][2]&#8216;를 인용한 기사인데요. 복지(welfare) 보다는 웰빙(well-being)의 정도를 측정한 보고서가 아닐까 싶습니다. 안 그래도 이 사이트는 평점 결과를 멋지게 시각화해 놓아서 관심 있게 보았던 차에 기사가 났네요.  
+<!--more-->
+
+
+
+개인적으로 등수놀이는 관심이 없으니 이번 포스팅에서는 OECD의 우리나라에 대한 평가를 중심으로 적어 보도록 하겠습니다.
+
+이 보고서는 2008년부터 34개 회원국의 각종 통계 자료들을 모아 나라별 웰빙지수를 주거, 소득, 일자리, 공동체, 교육, 환경, 국정관리, 건강, 삶의 만족도, 안전성, 일과 삶의 균형의 총 11개 분야로 측정하고 있습니다. 각 분야에는 세부 측정항목이 있으며 이를 종합한 것이 Better Life Index입니다. 보고서에서는 각 항목에 대해 0~10점의 점수를 부여하여 평가하고 있습니다. 예를 들어 주거에 대한 평가가 완벽하다면 10점, 형편없다면 0점 이런 식이죠. 따라서 각 항목의 기대평균은 5점이라 할 수 있습니다.
+
+OECD에서 평가한 각 분야에 대한 우리나라 점수를 보면
+
+<img style="display: block; margin-left: auto; margin-right: auto; border: 0px initial initial;" title="wellbeing.png" src="http://i2.wp.com/wsyang.com/wp-content/uploads/2011/05/wellbeing.png?resize=480%2C326" border="0" alt="Wellbeing" data-recalc-dims="1" />
+
+위 그래프에서 볼 수 있듯이 주거, 소득, 건강, 삶의 만족, 공동체 분야는 OECD가 상정한 평균을 넘지 못하고 있습니다. 나머지 분야는 평균이상의 점수를 받았고 특히, 교육과 안전 분야에서는 고득점을 받았습니다.
+
+그러면, 각 분야의 몇몇 세부 측정항목에 대한 우리나라의 현황을 보도록 하죠.
+
+## 주거(Housing)
+
+[<img class="aligncenter size-full wp-image-2255" title="housing" src="http://i1.wp.com/wsyang.com/wp-content/uploads/2011/05/housing.png?resize=512%2C60" alt="" data-recalc-dims="1" />][3]
+
+## 소득(Income)
+
+[<img class="aligncenter size-full wp-image-2256" title="Income" src="http://i0.wp.com/wsyang.com/wp-content/uploads/2011/05/Income.png?resize=512%2C60" alt="" data-recalc-dims="1" />][4]
+
+## 일자리(Job)
+
+[<img class="aligncenter size-full wp-image-2257" title="Jobs" src="http://i0.wp.com/wsyang.com/wp-content/uploads/2011/05/Jobs.png?resize=512%2C60" alt="" data-recalc-dims="1" />][5]
+
+## 공동체(Community)
+
+## [<img class="aligncenter size-full wp-image-2261" title="Community" src="http://i2.wp.com/wsyang.com/wp-content/uploads/2011/05/Community.png?resize=512%2C60" alt="" data-recalc-dims="1" />][6]
+
+## 교육(Education)
+
+## [<img class="aligncenter size-full wp-image-2262" title="Education" src="http://i0.wp.com/wsyang.com/wp-content/uploads/2011/05/Education.png?resize=512%2C60" alt="" data-recalc-dims="1" />][7]
+
+## 환경(Environment)
+
+## [<img class="aligncenter size-full wp-image-2263" title="Environment" src="http://i2.wp.com/wsyang.com/wp-content/uploads/2011/05/Environment.png?resize=512%2C43" alt="" data-recalc-dims="1" />][8]
+
+## 국정관리(Governance)
+
+## [<img class="aligncenter size-full wp-image-2264" title="Governer" src="http://i0.wp.com/wsyang.com/wp-content/uploads/2011/05/Governer.png?resize=512%2C60" alt="" data-recalc-dims="1" />][9]
+
+## 건강(Health)
+
+## [<img class="aligncenter size-full wp-image-2265" title="Health" src="http://i1.wp.com/wsyang.com/wp-content/uploads/2011/05/Health.png?resize=512%2C60" alt="" data-recalc-dims="1" />][10]
+
+## 삶의 만족도(Life Satisfaction)
+
+## [<img class="aligncenter size-full wp-image-2266" title="Life" src="http://i2.wp.com/wsyang.com/wp-content/uploads/2011/05/Life.png?resize=512%2C76" alt="" data-recalc-dims="1" />][11]
+
+## 안전성(Safety)
+
+## [<img class="aligncenter size-full wp-image-2267" title="safe" src="http://i0.wp.com/wsyang.com/wp-content/uploads/2011/05/safe.png?resize=512%2C62" alt="" data-recalc-dims="1" />][12]
+
+## 일과 삶의 균형(Work-Life Balance)
+
+[<img class="aligncenter size-full wp-image-2260" title="balance" src="http://i0.wp.com/wsyang.com/wp-content/uploads/2011/05/balance.png?resize=512%2C78" alt="" data-recalc-dims="1" />][13]
+
+많은 항목에서 아직 우리나라는 OECD의 평균에 못 미치는 것을 알 수 있습니다. 특히나 연간 근무시간은 OECD 전체 회원국 중에서도 가장 길다는 것은 여러분도 잘 아시리라 생각합니다. 그런데 여가 시간이 평균보다 길다는 것이 참 아이러니하네요.
+
+동아일보에 실린 기사에서 아쉬운 점은 인용된 삶의 만족도는 전체 11개 분야 중 하나입니다. 저만 그런지 몰라도 종합 점수가 전체 24위를 했다는 기사인 듯한 느낌이 드네요. 종합점수는 그보다 아래인 34개 회원국 중 26위입니다만&#8230; 그리고 삶의 만족도에서 스웨덴이 제외되었다고 기사에는 나와 있는데, 현재는 34개국에 대한 모든 정보가 공개되어 있습니다. 지면에 실린 기사는 수정하기 어렵더라도 온라인 기사의 수정은 어렵지 않게 할 수 있을 거라 생각합니다. 사실을 전하는 것이 신문 기사이니만큼 오류가 있으면 나중에라도 수정하는 것이 언론의 올바른 자세가 아닐까 싶습니다.
+
+ [1]: http://media.daum.net/society/view.html?cateid=1067&newsid=20110526033119400&p=donga
+ [2]: http://www.oecdbetterlifeindex.org/
+ [3]: http://i1.wp.com/wsyang.com/wp-content/uploads/2011/05/housing.png
+ [4]: http://i0.wp.com/wsyang.com/wp-content/uploads/2011/05/Income.png
+ [5]: http://i0.wp.com/wsyang.com/wp-content/uploads/2011/05/Jobs.png
+ [6]: http://i2.wp.com/wsyang.com/wp-content/uploads/2011/05/Community.png
+ [7]: http://i0.wp.com/wsyang.com/wp-content/uploads/2011/05/Education.png
+ [8]: http://i2.wp.com/wsyang.com/wp-content/uploads/2011/05/Environment.png
+ [9]: http://i0.wp.com/wsyang.com/wp-content/uploads/2011/05/Governer.png
+ [10]: http://i1.wp.com/wsyang.com/wp-content/uploads/2011/05/Health.png
+ [11]: http://i2.wp.com/wsyang.com/wp-content/uploads/2011/05/Life.png
+ [12]: http://i0.wp.com/wsyang.com/wp-content/uploads/2011/05/safe.png
+ [13]: http://i0.wp.com/wsyang.com/wp-content/uploads/2011/05/balance.png

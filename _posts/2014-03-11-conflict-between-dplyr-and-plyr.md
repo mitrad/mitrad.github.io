@@ -14,8 +14,6 @@ tags: [R, dplyr, plyr]
 
 예를 들면 다음과 같은 경우...
 
-<!--more-->
-
 {% highlight r %}
 > library(dplyr)
 {% endhighlight %}

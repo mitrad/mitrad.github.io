@@ -8,7 +8,6 @@ tags: [LaTeX, Sublime Text 3, 일본어]
 
 나이를 먹어감에 급속히 가속되는 기억의 휘발성을 위해 Windows 7 + 일본어 LaTeX + Sublime Text 3을 이용한 조판 시스템을 만드는 방법을 기록해 두기로 한다.
 
-<!--more-->
 
 ### 환경
 * OS: 일본어 MS Windows 7 

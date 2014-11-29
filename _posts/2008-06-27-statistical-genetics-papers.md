@@ -1,6 +1,9 @@
 ---
 title: "statistical genetics의 배경지식에 관한 참고논문"
 layout: post
+permalink: /2008/06/statistical-genetics%ec%9d%98-%eb%b0%b0%ea%b2%bd%ec%a7%80%ec%8b%9d%ec%97%90-%ea%b4%80%ed%95%9c-%ec%b0%b8%ea%b3%a0%eb%85%bc%eb%ac%b8/
+dsq_thread_id:
+  - 305875278
 ---
 1. Cardon LR, Bell JI., [Association study designs for complex diseases.](http://www.nature.com/nrg/journal/v2/n2/pdf/nrg0201_091a.pdf) Nat Rev Genet. 2001 Feb;2(2):91-9.  
 
