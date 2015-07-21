@@ -2,6 +2,7 @@
 layout: post
 title: "stringr package를 이용한 문자열 조작"
 date: 2014-07-04
+comments: true
 ---
 
 
