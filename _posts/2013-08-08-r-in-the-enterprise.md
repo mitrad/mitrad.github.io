@@ -15,6 +15,7 @@ tags:
   - SAS
   - SPSS
   - Sybase IQ
+comments: true
 ---
 ## 무료 데이터 분석 환경 R
 
