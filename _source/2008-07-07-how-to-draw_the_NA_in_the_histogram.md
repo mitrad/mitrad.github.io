@@ -15,33 +15,29 @@ comments: true
 기본 R의 histgram에서는 결손치(NA)를 그래프에 표시하지 않는다. 결손치의 수를 그래프에 나타내기 위해서는 약간의 추가 과정이 필요하다.
 
 
-{% highlight r %}
+```r
 > sample.data <- as.factor(sample(c(1, 0, NA), 100, replace = TRUE))
 > sample.data <- as.character(sample.data)
 > sample.data[is.na(sample.data)] <- " NA"
 > sample.data <- factor(sample.data)
 > plot(sample.data)
-{% endhighlight %}
+```
 
-![plot of chunk unnamed-chunk-2](/figs/source/2008-07-07-how-to-draw_the_NA_in_the_histogram/unnamed-chunk-2-1.png) 
+![plot of chunk unnamed-chunk-2](/figure/./2008-07-07-how-to-draw_the_NA_in_the_histogram/unnamed-chunk-2-1.png) 
 
 `ggplot2` 패키지를 이용하면 좀더 멋진 그래프를 얻을 수 있다.
 
 
-{% highlight r %}
+```r
 > library(ggplot2)
-{% endhighlight %}
+```
 
-
-
-{% highlight text %}
+```
 #> Loading required package: methods
-{% endhighlight %}
+```
 
-
-
-{% highlight r %}
+```r
 > qplot(sample.data, geom = "histogram")
-{% endhighlight %}
+```
 
-![plot of chunk unnamed-chunk-3](/figs/source/2008-07-07-how-to-draw_the_NA_in_the_histogram/unnamed-chunk-3-1.png) 
+![plot of chunk unnamed-chunk-3](/figure/./2008-07-07-how-to-draw_the_NA_in_the_histogram/unnamed-chunk-3-1.png) 
