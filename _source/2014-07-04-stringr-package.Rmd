@@ -4,6 +4,7 @@ title: "stringr package를 이용한 문자열 조작"
 date: 2014-07-04
 categories: R
 tags: [R, stringr package]
+comments: true
 ---
 
 ```{r eval=TRUE, echo=FALSE, message=FALSE}

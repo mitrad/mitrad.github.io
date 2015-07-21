@@ -4,6 +4,7 @@ title: "베이즈 추정을 위한 Stan 맛보기"
 date: 2014-04-10
 categories: R
 tags: [R, Stan]
+comments: true
 ---
 
 ```{r eval=TRUE, echo=FALSE, message=FALSE}
@@ -21,8 +22,6 @@ options(digits = 3)
 
 Bayesian inference using Gibbs sampling:BUGS는 베이즈 추정을 계산기 통계학적으로 수행하는 방법. "계산기 통계학적으로"라는 것은 복잡하고 어려운 함수기술에서 생략할 수 있는 부분은 생략해서 MCMC/Gibbs sampling으로 대체한다는 의미로 생각해도 좋음. 
 베이즈 추정을 하기 위해 우도 함수 등을 미리 구해 빡시게 코딩하는 것보다는 BUGS(WinBUGS, OpenBUGS, JAGS)등을 이용해 모델의 기술하고 실행한 후 결과를 확인하는 것이 편리. 그렇다고 해도 계산 시간이 오래 걸린다는 문제점은 남아 있음. 여기서는 Stan이라는 최근 많이 사용되는(것 같은?) 소프트웨어를 R에서 사용하는 방법에 대해 메모. 
-
-<!--more-->
 
 ## Stan의 개요
 
@@ -50,7 +49,7 @@ install.packages('inline')
 install.packages('Rcpp')
 ```
 
-```{r prompt=TRUE, message=FALSE}
+```{r prompt=TRUE, message=FALSE, warning=FALSE}
 # using library inline to compile a C++ code on the fly
 library(inline) 
 library(Rcpp)
@@ -101,7 +100,7 @@ install.packages('rstan', type = 'source')
 ```
 
 ### rstan을 효율적으로 사용하기 위한 옵션 
-```{r eval=TRUE, prompt=TRUE, message=FALSE}
+```{r eval=TRUE, prompt=TRUE, message=FALSE, warning=FALSE}
 library(rstan)
 set_cppo("fast")  # for best running speed
 set_cppo('debug') # make debug easier
@@ -110,7 +109,7 @@ set_cppo('debug') # make debug easier
 ## Example
 [RStan Getting Started](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started#how-to-install-rstan)의 예제 1번을 따라해보고 제대로 실행 되는가 확인.
 
-```{r prompt=TRUE}
+```{r prompt=TRUE, warning=FALSE}
 schools_code <- '
   data {
     int<lower=0> J; // number of schools 
