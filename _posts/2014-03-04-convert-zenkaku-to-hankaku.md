@@ -2,10 +2,10 @@
 layout: post
 title: "[R] 일본어 전각 문자를 반각 문자로 변환"
 date: 2014-03-04
+categories: R
 tags: [R, Nippon package]
-image: keyboard.png
+comments: true
 ---
-
 
 
 
@@ -13,19 +13,30 @@ image: keyboard.png
 
 전각 숫자문자는 데이터 분석에 이용할 수 없어서 모두 반각 문자로 바꾸어 주어야 하는데 이미 ***Nippon***이라는 R 패키지가 존재하고 있었다. 
 
-<!--more-->
+![](/images/keyboard.png)
+
 
 {% highlight r %}
 > library(Nippon)
+{% endhighlight %}
+
+
+
+{% highlight text %}
+#> Error in library(Nippon): there is no package called 'Nippon'
+{% endhighlight %}
+
+
+
+{% highlight r %}
 > zen2han("１２３４５ＡＢＣ")
 {% endhighlight %}
 
 
 
 {% highlight text %}
-#> [1] "12345ABC"
+#> Error in eval(expr, envir, enclos): could not find function "zen2han"
 {% endhighlight %}
-
 
 전각 반각이 섞여 있어도 전부 반각문자로 바꾸어 준다. 
 편리!!
@@ -39,8 +50,7 @@ image: keyboard.png
 
 
 {% highlight text %}
-#> [1] "12345ABC"
+#> Error in eval(expr, envir, enclos): could not find function "zen2han"
 {% endhighlight %}
-
 
 전각 문자와 반각 문자에 대한 위키백과 설명은 [여기](http://ko.wikipedia.org/wiki/%EC%A0%84%EA%B0%81_%EB%AC%B8%EC%9E%90%EC%99%80_%EB%B0%98%EA%B0%81_%EB%AC%B8%EC%9E%90)
