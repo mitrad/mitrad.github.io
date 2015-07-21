@@ -3,6 +3,7 @@ layout: post
 title: "태풍이동경로의 시각화"
 date: 2014-2-28
 tags: [R, dplyr package]
+comments: true
 ---
 
 
