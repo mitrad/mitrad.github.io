@@ -66,7 +66,7 @@ MySQL Community Server 5.6의 MSI Installer판을 디폴트로 설치한 경우
     sudo apt-get install libmysqlclient-dev
     
 
-윈도즈의 삽질에 비하면 정말 간단하죠? <img src="http://i0.wp.com/wsyang.com/wp-includes/images/smilies/icon_smile.gif?w=550" alt=":)" class="wp-smiley" data-recalc-dims="1" /> R의 태생이 그런지라 불편 없이 R을 사용하고자 한다면 리눅스 환경을 강력 추천합니다.
+윈도즈의 삽질에 비하면 정말 간단하죠? R의 태생이 그런지라 불편 없이 R을 사용하고자 한다면 리눅스 환경을 강력 추천합니다.
 
 ## 사용법
 
