@@ -4,17 +4,26 @@ safe: true
 lsi: false
 
 markdown:     kramdown
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  input: GFM
+#markdown:     redcarpet
+#redcarpet:
+#    extensions:
+#      - no_intra_emphasis
+#      - fenced_code_blocks
+#      - tables
+#      - strikethrough
+#      - superscript
+#      - autolink
+#      - hard_wrap
 
-redcarpet:
-    extensions:
-      - no_intra_emphasis
-      - fenced_code_blocks
-      - tables
-      - strikethrough
-      - superscript
-      - autolink
-      - hard_wrap
-
+  
 # Permalinks
 permalink:        pretty
 relative_permalinks: true

@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Wordpress에서 Jekyll로..."
+date: 2015-07-22
+categories: R
+tags: [R, servr, knitr, Jekyll]
+comments: true
+---
+
+```{r eval=TRUE, echo=FALSE, message=FALSE}
+knitr::opts_chunk$set(
+  comment = "#>",
+  error = TRUE,
+  tidy = FALSE,
+  width = 60
+)
+
+options(digits = 3)
+```
+
+
