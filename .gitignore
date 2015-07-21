@@ -4,3 +4,5 @@ _site
 Gemfile
 Gemfile.lock
 .python-version/
+.Rproj.user
+mirad.github.io.Rproj  
