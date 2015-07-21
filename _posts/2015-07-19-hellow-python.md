@@ -2,6 +2,7 @@
 layout: post
 title: "Mac OS X에 Python 개발환경 만들기"
 date: 2015-07-19
+comment: true
 ---
 
 평소에 R 만 쓰다보니 점점 지식이 편협해 지는 것 같아 Python을 해보려 마음먹었다.
