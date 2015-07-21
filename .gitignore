@@ -4,7 +4,6 @@ _site
 Gemfile
 Gemfile.lock
 .python-version/
-.Rproj.user
 mitrad.github.io.Rproj
 
 # History files
