@@ -13,12 +13,12 @@ tags:
   - 국정원
   - 뉴스타파
   - 트위터
+comments: true
 ---
 요즘 인터넷이 국정원의 정치개입의혹 때문에 떠들썩 합니다. 외국에 살기에 주로 인터넷을 통해 국내 상황을 접하는 데 트위터에서 보면 인터넷상에서만 정보가 오가지 공중파 방송이나 조중동에서는 쉬쉬하고 있는 것 같군요.
 
 그러던 차에 뉴스타파에서 [국정원 확인 및 의심 트위터 계정 658개와 게시글 23만여 건을 공개][1]했습니다. 안 그래도 요즘 SNS 데이터 분석에 흥미를 가지고 있었는데 마침 잘 되었다 싶어 이 데이터를 이용한 분석을 시도해 보았습니다.
 
-<!--more-->
 
 ## **데이터 설명**
 
@@ -101,17 +101,9 @@ RT 업무를 성실히 수행한 계정 Top10
 
 불순한 의도를 가지고 여론을 몰아가는 행위를 하는 것은 그들이 주 적으로 삼고 있는 북한 간첩들의 중요활동 아닌가요? 참 더럽군요. 그렇게까지 해서 정권 유지하니 좋으세요?
 
-<div class="arconix-box arconix-box-green">
-  <i class='fa fa-2x pull-left fa-download'></i><div class="arconix-box-content">
-    이번 분석에 사용한 R 코드는 <a href="https://gist.github.com/mitrad/5895589">여기</a>에서 확인할 수 있습니다. 오류가 있다면 알려주세요… <img src="http://i0.wp.com/wsyang.com/wp-includes/images/smilies/icon_smile.gif?w=550" alt=":)" class="wp-smiley" data-recalc-dims="1" /><br />
-  </div>
-</div>
+이번 분석에 사용한 R 코드는 [여기](https://gist.github.com/mitrad/5895589)에서 확인할 수 있습니다. 오류가 있다면 알려주세요… 
 
-<div class="arconix-box arconix-box-tan">
-  <i class='fa fa-2x pull-left fa-comment'></i><div class="arconix-box-content">
-    이번 작업과 관련해 슬로우뉴스에 인터뷰 기사가 실렸습니다. 인터뷰 전문은 <a href="http://slownews.kr/12329">여기</a>에서 볼 수 있습니다.
-  </div>
-</div>
+이번 작업과 관련해 슬로우뉴스에 인터뷰 기사가 실렸습니다. 인터뷰 전문은 [여기](http://slownews.kr/12329)에서 볼 수 있습니다.
 
  [1]: http://newstapa.com/597
  [2]: http://www.newstapa.com/598
