@@ -11,6 +11,7 @@ tags:
   - R-Tips
   - 데이터 시각화
   - 상자 수염 그림
+comments: true
 ---
 데이터 분석할 때 무엇을 가장 먼저 하세요?
 
@@ -115,7 +116,7 @@ Box plot에서 상자 안의 직선은 중위수를 의미하고 상자의 양�
 
 결과 R 코드는 복잡해 졌지만, 확실히 그래프만으로 알 수 있는 정보의 양은 늘었네요. 조금 더 일반화시켜서 함수로 만들어 놓고 필요할 때마다 유용하게 쓰게 될 것 같습니다. 
 
-예제에 사용한 데이터 및 R 코드 그리고 이 글의 원본이 되는 Markdown 문서는 [여기](href="https://github.com/mitrad/Boxplot)에서 받을 수 있습니다.
+예제에 사용한 데이터 및 R 코드 그리고 이 글의 원본이 되는 Markdown 문서는 [여기](https://github.com/mitrad/Boxplot)에서 받을 수 있습니다.
 
  [1]: http://en.wikipedia.org/wiki/John_Tukey
  [2]: http://wp.me/p1u7fk-8n
