@@ -52,8 +52,10 @@ $$
 가 됩니다. 물론 연쇄상태에 있지 않다면 위 식은 독립의 법칙 때의 식과 같게 되어  
 
 $$  
+\begin(eqnarray*)
 P(AB) &=& P(A)P(B)=\frac{1}{4} \\  
-P(A|B) &=& P(A)  
+P(A|B) &=& P(A) 
+\end(eqnarray*) 
 $$ 
 
 가 성립하게 됩니다.
@@ -69,8 +71,10 @@ $$
 가 성립하는 것을 의미합니다. 또한,  
 
 $$
+\begin{eqnarray*}
 P(A|B) & = & 1-P(a|B) \\  
 P(a|b) & = & 1-P(A|b)  
+\end(eqnarray*)
 $$
 
 이므로, $$ P(A|B) = P(a|b) = 1-\theta $$가 됩니다.
