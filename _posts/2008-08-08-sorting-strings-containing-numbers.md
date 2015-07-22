@@ -11,6 +11,7 @@ categories:
 tags:
   - data step
   - SAS
+comments: true
 ---
 <span style="font-size: 24px;">Q.</span> 다음과 같은 데이터셋이 존재한다고 했을 때, 문자열변수 안의 숫자의 크기순으로 정렬하고 싶지만, 이대로 PROC SORT를 이용하면 A-1, A-10, A-12, A-2의 순으로 정렬됩니다. 문자열 안의 숫자의 크기 순으로 정렬하는 방법은 없나요?
 
