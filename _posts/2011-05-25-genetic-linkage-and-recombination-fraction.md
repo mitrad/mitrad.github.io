@@ -38,21 +38,23 @@ comments: true
 
 재조합비율은 1회의 감수분열에서 두 유전자 좌 사이에 재조합이 일어날 확률 혹은 다수의 감수분열에서 두 유전자 좌 사이에 재조합이 일어난 감수분열의 비율로 정의됩니다. 통상 재조합비율은 $$ \theta $$로 표기하며, $$ 0 \leq \theta \leq 0.5 $$의 값을 가집니다. 또한, $$ \theta = 0.5$$일 때 독립의 법칙이 성립합니다.
 
-![](/images/2015-05-25-fig2.png)
+![](/images/2011-05-25-fig2.png)
 
 다시 연사의 법칙으로 돌아가서, 한 개체의 제1 유전자 좌의 유전자형을 Aa, 제2 유전자 좌의 유전자형을 Bb라 할 때, 두 유전자 좌 사이가 연쇄상태에 있다면, allele A와 allele B가 각각 다음 세대에 전달될 확률은  
 
-\begin{aligned}  
+$$
+\begin{eqnarray*}
 P(AB) &\neq& P(A)P(B)=\frac{1}{4} \\  
-P(A|B) &\neq& P(A)  
-\end{aligned}  
+P(A|B) &\neq& P(A)
+\end{eqnarray*}  
+$$
 
 가 됩니다. 물론 연쇄상태에 있지 않다면 위 식은 독립의 법칙 때의 식과 같게 되어  
 
-\begin{aligned}  
+$$  
 P(AB) &=& P(A)P(B)=\frac{1}{4} \\  
 P(A|B) &=& P(A)  
-\end{aligned}  
+$$ 
 
 가 성립하게 됩니다.
 
@@ -60,16 +62,16 @@ P(A|B) &=& P(A)
 
 만약 위 식에서 $$ P(AB) < 1/4 $$라 하고 A-B를 아버지로부터 a-b를 어머니로부터 물려받은 allele라 한다면, 같은 염색체 위에 있는 allele은 A-B 혹은 a-b의 조합(haplotype)이 다음 세대에 전달될 것입니다. 그러나 A-b, a-B라는 allele 조합이 생식체에서 발견된다면 이는 감수분열 시 재조합이 일어났다는 것을 의미합니다. 따라서 연쇄의 법칙은 부모로부터 자식으로 전달되는 allele에 대해,  
 
-\begin{aligned}  
+$$
 P(a|B)=P(A|b)=\theta  
-\end{aligned}  
+$$
 
 가 성립하는 것을 의미합니다. 또한,  
 
-\begin{aligned}  
+$$
 P(A|B) & = & 1-P(a|B) \\  
 P(a|b) & = & 1-P(A|b)  
-\end{aligned}  
+$$
 
 이므로, $$ P(A|B) = P(a|b) = 1-\theta $$가 됩니다.
 
