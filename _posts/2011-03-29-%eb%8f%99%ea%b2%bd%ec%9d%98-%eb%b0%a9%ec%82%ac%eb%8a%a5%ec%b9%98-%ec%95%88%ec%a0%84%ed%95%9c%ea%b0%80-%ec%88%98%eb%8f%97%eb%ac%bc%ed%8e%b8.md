@@ -14,6 +14,7 @@ tags:
   - 수돗물
   - 원전사고
   - 일본이야기
+comments: ture
 ---
 오늘은 수돗물에 대해서 이야기해 보도록 하겠습니다.
 
@@ -22,7 +23,7 @@ tags:
   
 현재 <a href="http://mextrad.blob.core.windows.net/page/13_Tokyo.html" target="_blank">일본 문부성</a> 및 <a href="http://ftp.jaist.ac.jp/pub/emergency/monitoring.tokyo-eiken.go.jp/monitoring/w-past_data.html" target="_blank">동경 건강안전연구센터</a>의 홈페이지에서는 환경방사능 조사치와 함께 실제 우리가 사용하는 수돗물의 방사능 수치도 함께 발표하고 있습니다. 오늘도 이 발표자료를 이용해 동경 신주쿠의 수돗물에서 검출되는 방사능 검출치를 18일부터 <del datetime="2011-03-31T12:00:04+00:00">28일, 30일,3월 31,4월 6일</del>, <del>4월11,12일</del>4월 25일까지 그래프로 그려보았습니다.
 
-![center](http://i1.wp.com/wsyang.com/wp-content/uploads/2011/05/water20110505.png)
+![](/images/2011-03-29-fig1.png)
 
 그래프의 위쪽이 I-131(방사성 요오드), 아래쪽이 Cs-137 (세슘)의 검출량을 의미합니다(단위: Bg/Kg). 둘 다 섭취 제한 기준치인 방사성 요오드 300 Bg/Kg, 세슘 200 Bg/Kg 미만인 것을 볼 수 있습니다. 보통 정수장에서 가정에 수돗물이 공급되기에는 2~3일이 걸린다고 하니, 주말쯤이면 검출량이 아주 미세하거나 검출되지 않으리라 생각됩니다.
 
