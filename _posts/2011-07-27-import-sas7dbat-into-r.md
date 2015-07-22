@@ -63,13 +63,14 @@ comments: true
 
 
 {% highlight r %}
-> with(cars, summary(Weight))
+> with(cars, summary(MPG))
 {% endhighlight %}
 
 
 
 {% highlight text %}
-## Error in summary(Weight): object 'Weight' not found
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##     9.0    17.0    22.8    23.4    29.0    46.6
 {% endhighlight %}
 
 아직 대용량 데이터를 대상으로 써보지는 않았지만, SAS가 없어도 직접 sas7bdat 형식의 파일을 R에서 이용할 수 있다는 점에서 유용하게 사용할 수 있을듣 합니다.
