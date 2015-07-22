@@ -45,6 +45,17 @@ img {
     vertical-align: middle;
 }
 
+/**
+ * Image caption (http://codingtips.kanishkkunal.in/image-caption-jekyll/)
+ */
+.image-wrapper {
+    text-align: center;
+
+    .image-caption {
+        color: $grey-color;
+        margin-top: $spacing-unit / 3;
+    }
+}
 
 
 /**
@@ -169,7 +180,6 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
-
 
 
 /**
