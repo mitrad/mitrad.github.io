@@ -196,24 +196,36 @@ R의 사용자 환경(UI)은 그다지 좋은 편이 못됩니다. R에서 데�
 
 
 {% highlight r %}
-> iris[,1:6]
+> iris[1:6, ]
 {% endhighlight %}
 
 
 
 {% highlight text %}
-## Error in `[.data.frame`(iris, , 1:6): undefined columns selected
+##   Sepal.Length Sepal.Width Petal.Length Petal.Width Species
+## 1          5.1         3.5          1.4         0.2  setosa
+## 2          4.9         3.0          1.4         0.2  setosa
+## 3          4.7         3.2          1.3         0.2  setosa
+## 4          4.6         3.1          1.5         0.2  setosa
+## 5          5.0         3.6          1.4         0.2  setosa
+## 6          5.4         3.9          1.7         0.4  setosa
 {% endhighlight %}
 
 
 
 {% highlight r %}
-> iris[,145:150]
+> iris[145:150, ]
 {% endhighlight %}
 
 
 
 {% highlight text %}
-## Error in `[.data.frame`(iris, , 145:150): undefined columns selected
+##     Sepal.Length Sepal.Width Petal.Length Petal.Width   Species
+## 145          6.7         3.3          5.7         2.5 virginica
+## 146          6.7         3.0          5.2         2.3 virginica
+## 147          6.3         2.5          5.0         1.9 virginica
+## 148          6.5         3.0          5.2         2.0 virginica
+## 149          6.2         3.4          5.4         2.3 virginica
+## 150          5.9         3.0          5.1         1.8 virginica
 {% endhighlight %}
 와 같이 인덱스를 사용하는 방법도 있지만, 관측값의 수가 많을 수록 실제로 사용해보면 head, tail 함수를 이용하는 것이 훨씬 편하더군요.
