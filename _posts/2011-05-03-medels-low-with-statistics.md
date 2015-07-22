@@ -15,12 +15,13 @@ tags:
   - 그레고어 멘델
   - 멘델의 유전 법칙
   - 유전통계학
+comments: true
 ---
 지금은 어떤지 모르겠지만 저는 고등학교 생물 시간에 처음으로 멘델의 법칙에 대해 배웠습니다. 당시에는 그냥 생물학의 한 분야로서만 기억할 뿐, 이 법칙이 통계학과 관련이 있으리란 생각은 전혀 못했었죠.
 
 멘델의 법칙은 그레고어 멘델(Gregor Johann Mendel, 1822~1884)이 수도원 정원에서 완두를 기르면서 다양한 특징들을 연구하여 1866년에 발표한 [논문][1]에 실려 있는 내용입니다. 하지만 멘델의 연구결과는 눈에 띄지 않는 학술잡지 속에 묻혀 있었고, 그의 세심한 실험과 정교한 정량 분석은 시대를 너무 앞서 있었습니다. 그의 사후 1900년이 되어서야 비슷한 문제를 탐구하고 있던 세 명의 식물 유전학자가 멘델의 연구 결과를 재발견함으로써 비로소 세상의 주목을 받게 됩니다.  
 
-![center](http://i0.wp.com/wsyang.com/wp-content/uploads/2011/04/fig2.jpg)
+![](/images/2011-05-03-fig1.jpg)
 
 멘델의 유전 법칙에 대한 일반적인 설명은 [위키피디아][2]에 잘 나와 있습니다만, 우열의 법칙, 분리의 법칙, 독립의 법칙으로 정리됩니다. 이 멘델의 법칙은 유전통계학에서도 가장 기본이 되고 중요한 법칙입니다. 이번 포스팅에서는 이 세 가지 법칙을 통계학의 관점에서 설명해 보도록 하겠습니다.
 
@@ -36,21 +37,21 @@ tags:
  
  $$
  \begin{align*}  
- P(D|AA) &= p_{AA}, \\ 
- P(D|Aa) &= p_{Aa}, \\
- P(D|aa) &= p_{aa}  
+ P(D|AA) &=& p_{AA}, \\ 
+ P(D|Aa) &=& p_{Aa}, \\
+ P(D|aa) &=& p_{aa}  
  \end{align*}
  $$
 
-> 단, \\( p\_{AA}, p\_{Aa}, p_{aa} \\) 는 각각 AA, Aa, aa의 침투율(발병확률).
+> 단, $$ p\_{AA}, p\_{Aa}, p_{aa} $$ 는 각각 AA, Aa, aa의 침투율(발병확률).
 > 
 > 양적 표현형에서는 확률함수가 아닌 확률밀도함수로서 표현되므로 양적 표현형의 밀도함수가 정규분포를 따른다고 하면, 확률변수 X의 분포는
 
 $$ 
  \begin{align*}  
- X: AA &\sim N(\mu_1, \sigma_1^2) \\  
- X: Aa &\sim N(\mu_2, \sigma_2^2) \\  
- X: aa &\sim  N(\mu_3, \sigma_3^2)  
+ X: AA & \sim & N(\mu_1, \sigma_1^2) \\  
+ X: Aa & \sim & N(\mu_2, \sigma_2^2) \\  
+ X: aa & \sim &  N(\mu_3, \sigma_3^2)  
  \end{align*}
 $$ 
 
@@ -59,7 +60,7 @@ $$
 
 이를 그림으로 정리하면 다음과 같습니다.
 
-![center](http://i0.wp.com/wsyang.com/wp-content/uploads/2011/04/fig3.jpg)
+![](/images/2011-05-03-fig2.jpg)
 
 단, 위의 그림에서 왼쪽은 질적 표현형의 유전자형 계승양식의 예를, 오른쪽은 양적 표현형의 우성 계승양식을 예로 들었습니다.
 
@@ -72,7 +73,7 @@ $$
 라는 법칙입니다.  
 분리의 법칙을 그림으로 설명하면 다음과 같습니다.
 
-![center](http://i0.wp.com/wsyang.com/wp-content/uploads/2011/04/fig4.jpg)
+![](/images/2011-05-03-fig3.jpg)
 
 즉, 아버지(혹은 어머니)로부터 하나의 allele가 1/2의 확률로 다음 세대에 전달된다는 이야기죠. 다시 말해 분리의 법칙은 유전자형을 구성하는 allele가 무엇이든, 나이에 상관없이, 성별에 상관없이, 형제자매에게 어떤 allele가 전달되든 상관없이, 비가 오든, 바람이 불든 상관없이 부모로부터 특정 allele가 자식에게 전달될 확률은 1/2 이란 이야기입니다.
 
@@ -80,9 +81,9 @@ $$
 
 $$
 \begin{align*}  
-P(AA) &= P(A) \times P(A) = \frac{1}{2} \times \frac{1}{2} = \frac{1}{4} \\  
-P(Aa) &= P(A) \times P(a) + P(a) \times P(A) = \frac{1}{4} + \frac{1}{4} = \frac{1}{2} \\  
-P(aa) &= P(a) \times P(a) = \frac{1}{2} \times \frac{1}{2} = \frac{1}{4}  
+P(AA) & = & P(A) \times P(A) = \frac{1}{2} \times \frac{1}{2} = \frac{1}{4} \\  
+P(Aa) & = & P(A) \times P(a) + P(a) \times P(A) = \frac{1}{4} + \frac{1}{4} = \frac{1}{2} \\  
+P(aa) & = & P(a) \times P(a) = \frac{1}{2} \times \frac{1}{2} = \frac{1}{4}  
 \end{align*}  
 $$
 
@@ -95,7 +96,7 @@ $$
 > 2개의 유전자 좌(1)가 서로 다른 염색체상에 있을 때 하나의 유전자형을 구성하는 두 개의 allele 중 하나가 다음 세대에 전달될 때, 또 다른 유전자 좌(2)의 allele는 유전자 좌(1)가 어떤 allele를 전달했는가에 상관없이 같은 확률로 다음 세대에 전달된다.
 
 는 법칙입니다.  
-![center](http://i2.wp.com/wsyang.com/wp-content/uploads/2011/04/fig5.jpg)
+![](/images/2011-05-03-fig4.jpg)
 
 독립의 법칙은 세포의 감수분열(생식세포 분열)에서 상동염색체의 움직임과 관련이 있습니다. 한 쌍의 상동염색체가 두 개의 딸세포로 분리의 법칙에 의해 같은 확률로 분리되지만, 서로 다른 염색체의 상동염색체의 분리방법은 서로 영향을 주지 않는다는 법칙입니다.
 
@@ -103,5 +104,3 @@ $$
 
  [1]: http://www.esp.org/foundations/genetics/classical/gm-65.pdf
  [2]: http://ko.wikipedia.org/wiki/%EB%A9%98%EB%8D%B8%EC%9D%98_%EC%9C%A0%EC%A0%84%EB%B2%95%EC%B9%99
- [3]: http://i0.wp.com/wsyang.com/wp-content/uploads/2011/04/fig3.jpg
- [4]: http://i2.wp.com/wsyang.com/wp-content/uploads/2011/04/fig5.jpg

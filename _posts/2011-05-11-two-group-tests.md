@@ -17,13 +17,11 @@ tags:
   - 두 집단의 평균차 검정
   - 정리
   - 평균비교
+comments: true
 ---
 두 표본집단(2 sample)의 평균 차이에 대한 검정방법으로 가장 많이 쓰이는 것이 아마 t-검정이라 생각됩니다. 하지만 데이터의 형태나 조건에 따라 적용할 수 있는 검정법과 적용할 수 없는 검정법들이 있음을 주의해야 합니다. 말로 길게 설명하는 것보다는 그림이 이해하기가 더 쉬우리라 생각해 플로차트 형식으로 만들어 보았습니다.  
-<!--more-->
 
-  
-<img style="display: block; margin-left: auto; margin-right: auto;" title="2group_test.png" src="http://i0.wp.com/wsyang.com/wp-content/uploads/2011/05/2group_test.png?resize=548%2C413" border="0" alt="2group test" data-recalc-dims="1" />
-
+![](/images/2011-05-11-fig1.png)
 여기서 가장 중요한 것은 역시 데이터의 정규성입니다. 데이터가 정규분포를 따른다고 가정할 수 있을 때 모수 검정법(parametric test)인 t-검정을, 정규분포의 가정을 할 수 없을 때 비모수 검정법(nonparametric test)인 Wilcoxon의 검정을 사용합니다.
 
 참고로 Wilcoxon의 순위합검정과 Mann-Whitney 검정은 검정을 위한 수식에 약간의 차이가 있을 뿐 검정의 결과는 같습니다.

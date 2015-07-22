@@ -14,6 +14,7 @@ tags:
   - 방사선
   - 일본 지진
   - 후쿠시마원전
+comments: true
 ---
 오늘도 글 하나 번역해 보았습니다.  
 글쓴이는 [지난번 글][1]과 같이 일본 이화학연구소 게놈 의과학연구센터 소장인 카마타니 나오유키(鎌谷直之) 선생님입니다.
@@ -58,7 +59,7 @@ tags:
 결론은 현재 수준의 방사선량보다 담배가 몸에 더 나쁘다는 거네요&#8230;  
 금연합시다!!
 
- [1]: http://wp.me/p1u7fk-qd
+ [1]: http://wsyang.com/2011/04/방사능-오염-식품-섭취-제한권고에-대한-과학적-입장/
  [2]: http://www.tufu.or.jp/bbs/bbs018.html
  [3]: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1716299/
  [4]: http://www.1000genomes.org/about
