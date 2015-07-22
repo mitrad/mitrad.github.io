@@ -36,20 +36,7 @@ comments: true
 
 {% highlight r %}
 > library(sas7bdat)
-> cars <- read.sas7bdat("/files/cars.sas7bdat")
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## Warning in file(file, "rb"): cannot open file '/files/cars.sas7bdat':
-## No such file or directory
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## Error in file(file, "rb"): cannot open the connection
+> cars <- read.sas7bdat("http://wsyang.com/files/cars.sas7bdat")
 {% endhighlight %}
 
 와 같이 함수 read.sas7bdat()를 이용하면 R의 데이터프레임 형식으로 변환시킬 수 있습니다.
@@ -64,13 +51,13 @@ comments: true
 
 
 {% highlight text %}
-##      speed           dist    
-##  Min.   : 4.0   Min.   :  2  
-##  1st Qu.:12.0   1st Qu.: 26  
-##  Median :15.0   Median : 36  
-##  Mean   :15.4   Mean   : 43  
-##  3rd Qu.:19.0   3rd Qu.: 56  
-##  Max.   :25.0   Max.   :120
+##       MPG            CYL            ENG           WGT      
+##  Min.   : 9.0   Min.   :3.00   Min.   : 68   Min.   :1613  
+##  1st Qu.:17.0   1st Qu.:4.00   1st Qu.:105   1st Qu.:2225  
+##  Median :22.8   Median :4.00   Median :151   Median :2804  
+##  Mean   :23.4   Mean   :5.47   Mean   :194   Mean   :2978  
+##  3rd Qu.:29.0   3rd Qu.:8.00   3rd Qu.:276   3rd Qu.:3615  
+##  Max.   :46.6   Max.   :8.00   Max.   :455   Max.   :5140
 {% endhighlight %}
 
 
