@@ -31,7 +31,7 @@ comments: true
 
 여기서 잠깐 교차(crossing over)와 재조합(genetic recombination)에 대해서 알아보도록 하겠습니다. 교차란 생식세포의 감수분열 과정에서 일어나는 염색체의 접합에 의해 일어나는 현상으로 접합한 염색체 일부가 서로 뒤바뀌는 것을 말하고, 재조합은 세포분열이 끝난 후의 두 유전자 좌를 측정했을 때의 상태에 대한 개념입니다.  
 
-{% include image.html img="images/2011-05-25-fig1.jpg" caption="Thomas Hunt Morgan's A Critique of the Theory of Evolution (1916)" %}
+{% include image.html img="/images/2011-05-25-fig1.jpg" caption="Thomas Hunt Morgan's A Critique of the Theory of Evolution (1916)" %}
 
 염색체 연쇄의 연구에 커다란 공헌을 한 Thomas Hunt Morgan의 논문에 실린 그림을 예로 설명해 보죠. 세포의 감수분열 전의 염색체 상태는 가장 위의 그림이 되고, 감수분열 과정에서 두 번의 교차가 일어났다고 했을 때 염색체의 상태는 가장 아래쪽의 그림이 됩니다. 만약 감수분열 후 유전자 좌 W와 유전자 좌 M을 측정했다고 하면 두 유전자 좌 사이에는 재조합이 있다고 말합니다. 이에 반해 유전자 좌 W와 유전자 좌 Br을 측정했을 때는 재조합이 없다고 말합니다. 즉, 두 유전자 좌 사이에 교차가 홀수 회 일어나면 재조합이 있다고 이야기하고, 교차가 짝수 회 일어났을 때는 재조합이 없다고 이야기합니다. 일반적으로 유전통계학에서 분석의 대상이 되는 것은 교차가 아닌 재조합입니다.
 
