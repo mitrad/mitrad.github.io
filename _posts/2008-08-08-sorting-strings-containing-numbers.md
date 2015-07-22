@@ -14,7 +14,7 @@ tags:
 ---
 <span style="font-size: 24px;">Q.</span> 다음과 같은 데이터셋이 존재한다고 했을 때, 문자열변수 안의 숫자의 크기순으로 정렬하고 싶지만, 이대로 PROC SORT를 이용하면 A-1, A-10, A-12, A-2의 순으로 정렬됩니다. 문자열 안의 숫자의 크기 순으로 정렬하는 방법은 없나요?
 
-![center](http://i0.wp.com/wsyang.com/wp-content/uploads/2008/08/picture-1.jpg)
+![](/images/2008-08-08-fig1.jpg)
 
 <span style="font-size: 24px;">A.</span> 정렬을 하기 전에 id 변수의 숫자의 앞에 0을 추가할 필요가 있습니다. 0을 추가하려면 다음과 같은 과정이 필요합니다.
 
