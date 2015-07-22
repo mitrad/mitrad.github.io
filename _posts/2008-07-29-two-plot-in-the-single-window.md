@@ -7,6 +7,7 @@ categories:
 tags:
   - graph
   - R-Tips
+comments: true
 ---
 
 R에서 하나의 윈도에 2개 이상의 그래프를 겹쳐 그리려면 일반적으로 함수 `curve()`나 `points()`를 이용한다. 하지만, 패키지에 따라서는 이 함수들을 제대로 사용할 수 없는 경우가 있다. 경험한 바로는 [ROC (receive operating characteristic)](http://en.wikipedia.org/wiki/Receiver_operating_characteristic) curve를 간단하게 그릴 수 있게 해주는 [ROCR package](http://cran.r-project.org/web/packages/ROCR/index.html)에서는 `points()` 함수를 쓸 수가 없었다. 이 같은 경우 2개의 그래프를 겹쳐 그릴 수 있게 하기 위해서는 함수 `par(new=TRUE)`를 이용한다.
