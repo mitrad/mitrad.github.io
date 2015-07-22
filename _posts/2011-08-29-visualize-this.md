@@ -17,8 +17,10 @@ tags:
   - 데이터 시각화
   - 지름
   - 책
+comments: true
 ---
-<a href="http://i2.wp.com/wsyang.com/wp-content/uploads/2011/08/vt.jpg" rel="lightbox"><img class="aligncenter size-medium wp-image-2383" title="Visualize This" src="http://i2.wp.com/wsyang.com/wp-content/uploads/2011/08/vt.jpg?resize=500%2C334" alt="" data-recalc-dims="1" /></a>
+
+![](/images/2012-08-29-fig1.jpg)
 
 책을 한 권 샀습니다. &#8220;[Visualize This][1]&#8220;라고 데이터 시각화에 대한 책입니다. 블로그 [flowingdata.com][2]을 운영하는 친구가 펴낸 책인데 예제가 많아서 마음에 듭니다. 일본 아마존에 주문했더니 열흘 만에 도착했네요.
 
