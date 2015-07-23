@@ -63,7 +63,7 @@ OECD에서 평가한 각 분야에 대한 우리나라 점수를 보면
 
 ## 건강(Health)
 
-![](/images/2011-05-29-fig1.png)
+![](/images/2011-05-29-fig9.png)
 
 ## 삶의 만족도(Life Satisfaction)
 
