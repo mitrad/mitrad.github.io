@@ -248,6 +248,15 @@ img.caption {
   border: 1px solid #e5e5e5;
 }
 
+.image-wrapper {
+    text-align: center;
+
+    .image-caption {
+        color: $grey-color;
+        margin-top: $spacing-unit / 3;
+    }
+}
+
 /* Tables */
 table {
   margin-bottom: 1rem;
@@ -499,3 +508,21 @@ a.pagination-item:hover {
   text-decoration: none;
   /*color: #53b9c9; /*#0a9cb2;*/
 }
+
+.share-page {
+    text-align: center;
+    background: #268bd2;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 1.5 * $spacing-unit 0;
+}
+    .share-page a {
+        font-weight: 700;
+        color: #fff;
+        margin-left: 10px;
+
+        &:hover {
+            border-bottom: 1px dashed #fff;
+        }
+    }
