@@ -14,31 +14,27 @@ tags:
   - 수리통계학
   - 역사
   - 유전통계학
+comments: true
 ---
 유전학과 통계학은 유사점이 많은 학문입니다. 실제로 19세기 후반, 20세기 초반의 유명한 통계학자인 Francis Galton, Karl Pearson, R.A Fisher 등은 유명한 유전학자이기도 합니다. 이번 포스트에서는 각각의 학문이 어떻게 시작되고, 어떠한 경로로 지금에 이르렀는지 살펴보도록 하겠습니다.
 
 ## 유전학의 성립과 역사
-
-<!--more-->
-
   
 초기의 과학적 생물학은 칼 본 린네(Carl von Linne에) 의해 시작된 분류학이라 할 수 있겠죠. Linne는 다양한 생물이 종(species)이라는 단위로 정리될 수 있다는 것을 제안했습니다. 그러나 이렇게 다양한 종이 어떠한 원리로 생겨났는가에 대한 원리는 명확하지 않아서 과학적인 고찰은 찰스 다윈(Charles Darwin)의 &#8220;종의 기원(Origin of Species)&#8221;의 출판을 기다릴 수 밖에 없었습니다. 다윈은 서로 다른 종 사이의 다양성(variation)의 메커니즘을 해명하는데 진화(evolution)라는 이론을 주장하죠. 그러나 다양성은 서로 다른 종간에 존재할 뿐만 아니라 같은 종 내에도 많은 다양성이 존재합니다. 특히, 인간은 우리의 가장 친밀한 종이며 그 다양성은 최대 관심사의 하나입니다. 서로 다른 종 사이의 다양성 대부분은 질적인 다양성입니다. 그러나 인간의 다양성은 서로 다른 종 사이의 다양성과는 다르게 양적인 해석이 가능합니다. 즉, 같은 종 안에서의 다양성은 때때로 연속적이어서 서로 다른 종 사이에서 볼 수 있는 이산적인 다양성과는 다르다 할 수 있습니다.
 
-[<img class="alignright size-full wp-image-2329" title="Francis Galton" src="http://i2.wp.com/wsyang.com/wp-content/uploads/2011/06/Galton.resized.png?resize=186%2C215" alt="" data-recalc-dims="1" />][1]
+{% include image.html img="images/2011-06-10-fig1.png" caption="Francis Galton" %}
 
 인간의 다양성을 설명하기 위한 과학적 연구를 시작한 것은 **프랜시스 골튼(Francis Galton)**입니다. Galton은 같은 종 안에서의 다양성을 양적으로 분석하기 위해 수학적 방법을 도입하였고 이는 생물학의 연구에 처음으로 수학을 본격적으로 응용한 사례로 주목할 수 있습니다. Glaton에 의해 창시되고 **칼 피어슨(K. Pearson)**에 의해 발전한 같은 종 안의 다양성을 수학적으로 분석하는 과학분야를 생물계측학(biometrics)라 합니다. Galton은 인간의 키 등의 연속적인 변량을 부모와 자식간에 비교하기 위해 회귀(regression), 상관(correlation) 등의 개념을 고안하고, 이어서 피어슨은 적률(moment), 확률밀도함수의 관계, 카이 제곱 검정 등을 만들어 내었습니다. 이들은 현재 통계학으로 이어져서, Galton, Pearson, W.F.R Weldon에 의해 창간된 영국의 통계학 저널 이름이 &#8220;Biometrika&#8221;인 것도 이에 영향을 받았기 때문이죠. Galton은 Darwin과 친척관계였기 때문에 종 사이의 다양성을 설명한 Darwin에 커다란 영향을 받고, 종 안에서의 다양성을 설명하기 위해 생물계측학을 창시하게 됩니다.
 
-[<img class="alignleft size-full wp-image-2331" title="Gregor Johann Mendel" src="http://i1.wp.com/wsyang.com/wp-content/uploads/2011/06/mendel.resized.png?resize=231%2C220" alt="" data-recalc-dims="1" />][2]
+{% include image.html img="images/2011-06-10-fig2.png" caption="Gregor Johann Mendel" %}
 
 한편, **멘델(Gregor Johann Mendel)**은 유전계승법칙(laws of inheritance)을 1866년에 발표합니다. 이것은 선조로부터 자손에게 정보가 전달된다는 개념으로 유전계승(heredity), 혹은 inheritance에 처음으로 과학적 고찰을 더한 매우 중요한 발견입니다. 하지만, 1900년에 멘델의 유전계승법칙이 프리스(Hugo Marie De Vries), 코렌스(Carl Erich Correns), 첼마크(E. Tschermak) 3명의 생물학자에 의해 재발견 되기 전까지 이 법칙의 중요성을 이해하는 사람은 많지 않았습니다.
 
-&nbsp;
-
-[<img class="aligncenter size-full wp-image-2333" title="round1.resized" src="http://i0.wp.com/wsyang.com/wp-content/uploads/2011/06/round1.resized.png?resize=380%2C279" alt="" data-recalc-dims="1" />][3]
+![](/images/2011-06-10-fig3.png)
 
 **베트슨(W. Bateson)**은 생물계측학의 Weldon의 제자로 다양성의 연구를 하고 있었지만, 멘델의 법칙에 큰 영향을 받아 heredity 뿐만 아니라 다양성의 대부분을 이 법칙에 의해 설명할 수 있다고 생각했습니다. 그러나 Bateson의 주장은 스승인 Weldon을 포함한 생물계측학자들의 맹렬한 비판을 받게 됩니다. 생물계측학파의 학자들은 종 안의 다양성은 연속적이므로 멘델의 법칙이 주장하는 이산형의 이론으로는 많은 다양성을 설명할 수 없다고 반론하였습니다. Bateson은 멘델의 법칙에 의해 이산적인 다양성은 설명할 수 있고, 연속적인 다양성을 설명하는 것이 자신은 불가능했지만, 직감적으로 언젠가는 가능할 것이라 예측합니다.
 
-[][4][<img class="aligncenter size-full wp-image-2338" title="round2" src="http://i2.wp.com/wsyang.com/wp-content/uploads/2011/06/round2.png?resize=410%2C153" alt="" data-recalc-dims="1" />][5]
+![](/images/2011-06-10-fig4.png)
 
 생물계측학파와 멘델학파의 논쟁은 장기간에 걸쳐 이루어졌는데요. 이 논쟁의 종지부에 크게 이바지한 인물이 피셔(F.A. Fisher)입니다. Fisher는 1918년에 중요한 논문([The correlation between relatives on the supposition of Mendelian inheritance][6])을 발표하여 생물계측학파가 대상으로 하는 연속적인 형질도 멘델의 법칙이 취급하는 이산적인 형질을 이용하여 설명할 수 있다는 poly gene model을 주장합니다. 즉, 이산적인 형질과 관련 있는 멘델의 법칙에 따르는 다수의 유전자 좌가 하나의 형질에  영향을 미칠 경우 유전자 좌 영향의 합과 환경 영향의 합은 정규분포로 근사시킬 수 있다(중심극한정리)고 주장하는 것이죠. 여기에, 생물계측학파의 연속형질의 이론과 멘델학파의 이산형질의 이론을 융합하였습니다. 또한, 같은 논문에서 Fisher는 분산(variance)이라는 개념을 최초로 도입하여, 분산의 비를 살펴보는 것에 대한 중요성을 주장하였습니다(분산분석). 그러나 앞서 이야기한 바와 같이 생물계측학파의 중심인물인 Pearson은 Fisher의 이론을 마지막까지 받아 들이지않았습니다. Fisher는 또한 변이(mutation)의 개념을 도입하여 진화도 멘델의 법칙에 의해 설명하는 데 성공하게 됩니다.
 
@@ -52,9 +48,7 @@ tags:
 
 현재 이용되고 있는 다수의 유전통계학적 방법은 Fisher에 의해 도입되었습니다. Fisher는 Mendel에 의해 창시되고, Morgan 등에 의해 확장된 유전계승에 관한 법칙을 확률함수의 형태로 표현하고, 유전에 관한 깊은 고찰을 하는데 성공하였습니다. 그러나 Pearson은 이 방법을 맹렬히 반대하고 현실세계에 참된 법칙을 도입해서는 안 된다는 것을 주장하였습니다.
 
-<p style="text-align: center;">
-  <a href="http://i0.wp.com/wsyang.com/wp-content/uploads/2011/06/round3.resized.png"><img class="aligncenter size-full wp-image-2343" title="round3.resized" src="http://i0.wp.com/wsyang.com/wp-content/uploads/2011/06/round3.resized.png?resize=446%2C293" alt="" data-recalc-dims="1" /></a>
-</p>
+![](/images/2011-06-10-fig5.png)
 
 현재의 수리통계학은 Pearson의 뒤를 이은 네이만(Jerzy Neyman)이 Fisher의 우도, 가설검정 등의 이론을 도입하여 수학적으로 제련된 형태로 정리한 것(Neyman-Pearson Lemma)이 기초가 되고 있습니다. Neyman은 전형적인 수학자로서 유전학에는 그다지 관심이 없었던 것 같습니다. 후에 Neyman은 미국으로 이주하여 UC 버클리에서 통계학과를 창설하게 됩니다. 이 때부터 유전학과 통계학은 거리가 멀어진다고 할 수 있습니다.
 
@@ -62,13 +56,8 @@ tags:
 
 즉, 유전통계학적 분석에서는 참된 모형을 이미 알고 있기 때문에 모형에 맞지 않는 데이터는 잘못된 데이터로 간주합니다. 이는 다른 많은 분야에서 관측데이터야말로 중요하고 모형은 단순히 참된값의 추정이라고 생각하는 것과 매우 다릅니다.
 
-유전통계학, 특히 인간의 데이터를 다룰 경우 매우 큰 수의 데이터를 취급하게 됩니다. 예를 들어 \(10^{100}\)를 넘어가는 수의 결과에 관해 정확한 확률을 계산할 필요가 발생하게 되죠. 인간의 유전문제만으로 이렇게 엄청난 수의 결과를 취급할 필요성이 발생하는 이유는 각각의 결과의 차이가 중대하다고 인정되기 때문입니다. 이 차이는 서울에 사는 A씨의 자식의 성별의 차이이기도 하고, 혹은 B씨가 평생 지속되는 병에 걸릴 것인가 아닌가의 차이이기 때문입니다. 경제 문제에서도 결과의 수는 매우 많아서 뉴욕에 있는 A사의 주가폭락이나 B사의 도산문제와 같은 중대한 문제이기도 합니다. 그러나 경제에서는 유전계승법칙과 같은 엄밀하게 성립하는 확률을 가정하는 것은 불가능하죠.
+유전통계학, 특히 인간의 데이터를 다룰 경우 매우 큰 수의 데이터를 취급하게 됩니다. 예를 들어 $$ 10^{100} $$를 넘어가는 수의 결과에 관해 정확한 확률을 계산할 필요가 발생하게 되죠. 인간의 유전문제만으로 이렇게 엄청난 수의 결과를 취급할 필요성이 발생하는 이유는 각각의 결과의 차이가 중대하다고 인정되기 때문입니다. 이 차이는 서울에 사는 A씨의 자식의 성별의 차이이기도 하고, 혹은 B씨가 평생 지속되는 병에 걸릴 것인가 아닌가의 차이이기 때문입니다. 경제 문제에서도 결과의 수는 매우 많아서 뉴욕에 있는 A사의 주가폭락이나 B사의 도산문제와 같은 중대한 문제이기도 합니다. 그러나 경제에서는 유전계승법칙과 같은 엄밀하게 성립하는 확률을 가정하는 것은 불가능하죠.
 
 이와 같은 이유로 통상의 통계분석 방법을 유전 데이터 분석에 그대로 이용하기는 어렵습니다. 따라서 정확한 유전 데이터의 분석을 위해서는 분석대상물에 대한 정확한 지식, 정확한 확률함수, 그리고 정교한 통계 분석방법이 필요합니다.
 
- [1]: http://i2.wp.com/wsyang.com/wp-content/uploads/2011/06/Galton.resized.png
- [2]: http://i1.wp.com/wsyang.com/wp-content/uploads/2011/06/mendel.resized.png
- [3]: http://i0.wp.com/wsyang.com/wp-content/uploads/2011/06/round1.resized.png
- [4]: http://wsyang.com/wp-content/uploads/2011/06/round2.png
- [5]: http://i2.wp.com/wsyang.com/wp-content/uploads/2011/06/round2.png
  [6]: http://en.wikipedia.org/wiki/The_Correlation_Between_Relatives_on_the_Supposition_of_Mendelian_Inheritance "The Correlation Between Relatives on the Supposition of Mendelian Inheritance"

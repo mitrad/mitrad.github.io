@@ -20,33 +20,24 @@ tags:
   - 게놈의 다양성
   - 유전자 다형성
   - 유전통계학
+comments: true
 ---
-정자, 난자와 같이 부모로부터 자식에게 유전정보를 전달하는 매체를 배우자(gamate)라 합니다. 배우자의 염기서열은 곧 게놈의 서열이 되며 배우자에 따라 서로 다른 부분이 존재합니다. 각 개체는 아버지 유래와 어머니 유래 2종류의 서열이 존재하고 이 서열 사이에도 차이가 존재합니다. 집단 내 게놈 서열의 차이를 **게놈의 다양성(genomic variation)**이라 합니다. <!--more-->
+정자, 난자와 같이 부모로부터 자식에게 유전정보를 전달하는 매체를 배우자(gamate)라 합니다. 배우자의 염기서열은 곧 게놈의 서열이 되며 배우자에 따라 서로 다른 부분이 존재합니다. 각 개체는 아버지 유래와 어머니 유래 2종류의 서열이 존재하고 이 서열 사이에도 차이가 존재합니다. 집단 내 게놈 서열의 차이를 **게놈의 다양성(genomic variation)**이라 합니다. 
 
-[<img class="aligncenter size-full wp-image-2277" title="variation" src="http://i1.wp.com/wsyang.com/wp-content/uploads/2011/05/variation.jpg?resize=545%2C228" alt="" data-recalc-dims="1" />][1]
+![](/images/2011-05-30-fig1.jpg)
 
 게놈의 다양성에도 여러 종류가 있습니다. 게놈의 다양성에 의해 상동염색체 위의 같은 유전자 좌가 개인 사이 혹은 배우자 사이에 차이가 있을 때 이를** 유전자 다형성(genetic polymorphism)**이라 합니다. 단, 다형성은 게놈 레벨의 차이뿐만 아니라 게놈의 차이에 따른 단백질의 차이 등에도 적용되는 용어입니다.
 
 유전자 다형성에서 그 수가 가장 많은 것은 **SNP(single-nucleotide polymorphism)**입니다. SNP는 A, T, C, G로 이루어진 염기서열 중 하나의 염기에 개인차이가 있는 것을 말하며, 현재까지 약 천만 이상의 SNP가 발견되었습니다.
 
-<p style="text-align: center;">
-  <a href="http://i0.wp.com/wsyang.com/wp-content/uploads/2011/05/SNP.jpg"><img class="aligncenter size-medium wp-image-2280" title="SNP" src="http://i0.wp.com/wsyang.com/wp-content/uploads/2011/05/SNP.jpg?resize=405%2C181" alt="" data-recalc-dims="1" /></a><a href="http://wsyang.com/wp-content/uploads/2011/05/STRP.resized.jpg"></a>
-</p>
+![](/images/2011-05-30-fig2.jpg)
 
 SNP 다음으로 많은 다형성이 **STRP(short tandem repeat polymorphism)**이며, 2~5 정도의 염기서열 반복 수의 차이에 따른 다형성입니다. 아래 그림과 같이 위쪽 서열은 4번, 아래쪽은 7번의 AT 반복에 의한 다형성입니다. STRP가 있으면 서열의 길이는 달라집니다.
 
-<p style="text-align: center;">
-  <a href="http://i2.wp.com/wsyang.com/wp-content/uploads/2011/05/STRP.resized.jpg"><img class="aligncenter size-medium wp-image-2281" title="STRP and VNTR" src="http://i2.wp.com/wsyang.com/wp-content/uploads/2011/05/STRP.resized.jpg?resize=400%2C199" alt="" data-recalc-dims="1" /></a>
-</p>
+![](/images/2011-05-30-fig3.jpg)
 
 **VNTR(variable number of tandem repeat)**는 STRP보다 긴 염기서열 반복 수의 차이에 따른 다형성이며, 이 밖에도 비교적 짧은 염기서열의 **주입/손실(insertion/deletion)**에 의한 다형성도 있습니다.
 
-<p style="text-align: center;">
-  <a href="http://i0.wp.com/wsyang.com/wp-content/uploads/2011/05/deletion.resized.jpg"><img class="aligncenter size-medium wp-image-2279" title="deletion.resized" src="http://i0.wp.com/wsyang.com/wp-content/uploads/2011/05/deletion.resized.jpg?resize=400%2C158" alt="" data-recalc-dims="1" /></a>
-</p>
+![](/images/2011-05-30-fig4.jpg)
 
 최근 **CNV(copy number variation)**이라는 다형성이 주목을 받고 있는데요. CNV는 VNTR보다도 긴 단편의 반복으로 일반적으로 유전자 단위의 반복을 말하는 경우가 많습니다.
-
-&nbsp;
-
- [1]: http://i1.wp.com/wsyang.com/wp-content/uploads/2011/05/variation.jpg
