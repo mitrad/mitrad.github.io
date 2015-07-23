@@ -23,7 +23,7 @@ kramdown:
 #      - autolink
 #      - hard_wrap
 
-  
+
 # Permalinks
 permalink:        pretty
 relative_permalinks: true
@@ -33,7 +33,7 @@ highlighter: pygments
 # Setup
 title:            Woosung Yang
 tagline:          memoRandum for data analytics
-url:              http://mitrad.github.io
+url:              http://wsyang.com
 paginate:         20
 baseurl:          /
 author:
