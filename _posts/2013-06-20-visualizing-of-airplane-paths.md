@@ -31,7 +31,7 @@ OpenFlights 프로젝트에서 제공하는 공항과 항공노선 데이터에�
 <img src="http://i2.wp.com/farm3.staticflickr.com/2845/9085732328_24f7b85ee0_o.png?w=550" alt="한일 항공노선" data-recalc-dims="1" />&ldquo; 
 
 위 그림은 선의 색이 진할수록 다수의 항공사가 같은 노선에 취항하고 있다는 것을 의미하고, 회색 원의 크기가 클수록 착륙하는 항공편이 많다는 것을 의미합니다.  
-생각보다는 많은 노선이 있네요. 위 지도는 구글맵을 이용했습니다. 아직(?) 구글맵은 동해를 일본해(Sea of Japan)으로 표기하고 있어서 제가 임의로 그림에 동해(East Sea)를 집어넣었습니다. <img src="http://i0.wp.com/wsyang.com/wp-includes/images/smilies/icon_smile.gif?w=550" alt=":)" class="wp-smiley" data-recalc-dims="1" />
+생각보다는 많은 노선이 있네요. 위 지도는 구글맵을 이용했습니다. 아직(?) 구글맵은 동해를 일본해(Sea of Japan)으로 표기하고 있어서 제가 임의로 그림에 동해(East Sea)를 집어넣었습니다. 
 
 그럼, 한일 양국에 한정 지어 보았을 때 가장 많은 항공사가 취항한 노선은 무엇일까요?
 
@@ -59,11 +59,7 @@ OpenFlights 프로젝트에서 제공하는 공항과 항공노선 데이터에�
 
 마지막으로 이번 포스팅에 사용한 R 코드는 다음과 같습니다. 
 
-<noscript>
-  <p>
-    View the code on <a href="https://gist.github.com/5820018">Gist</a>.
-  </p>
-</noscript>
+{% gist 5820018 %}
 
  [1]: http://openflights.org/
  [2]: http://cran.r-project.org/web/packages/ggmap/index.html
