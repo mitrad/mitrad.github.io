@@ -13,6 +13,7 @@ tags:
   - R
   - RMySQL
   - 빅데이터
+comments: true
 ---
 <img class="aligncenter" alt="R + MySQL" src="http://i0.wp.com/farm6.staticflickr.com/5493/9065201916_d7002b922c_o.png?w=550" data-recalc-dims="1" />
 

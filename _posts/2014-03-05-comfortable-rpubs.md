@@ -5,6 +5,7 @@ date: 2014-03-05
 categories: R
 tags: [R, RPubs]
 image: Eyeglasses-and-text.png
+comments: true
 ---
 
 [RPubs](http://rpubs.com/)는 R 사용자를 위한 Web 서비스의 하나로 R로 작성된 코드+실행결과+설명을 markdown 문서로 만들어 업로드 할 수 있는 사이트다. 쉽게 말하면 RStudio에서 .Rmd를 컴파일(?) 하면 만들어 주는 .html 파일을 공유하는 서비스.

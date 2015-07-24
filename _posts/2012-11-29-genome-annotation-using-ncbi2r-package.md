@@ -16,6 +16,7 @@ tags:
   - NCBI
   - NCBI2R
   - R
+comments: true
 ---
 관련분석(association study)을 하다 보면 필연적으로 SNP와 게놈정보를 많이 이용하게 됩니다. 보통 클라이언트에게 제출하는 분석결과 보고서에는 각 SNP에 대한 위치정보와 대응하는 유전자 이름을 같이 넣게 되는데 보통 DNA chip 제조회사가 제공하는 주석(annotation) 정보를 이용하게 됩니다.
 

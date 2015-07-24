@@ -23,6 +23,7 @@ tags:
   - data visualization
   - R-Tips
   - 삶의 만족도
+comments: true
 ---
 우리나라의 소득 상위 10%와 하위 10%의 삶의 만족도에 대한 격차가 OECD Better Life Index 2013 조사 대상 36개 국가 중 끝에서 두 번째인 35위네요. 
 

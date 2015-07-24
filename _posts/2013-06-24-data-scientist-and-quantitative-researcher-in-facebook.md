@@ -13,6 +13,7 @@ tags:
   - Facebook
   - Quantitative Researcher
   - 데이터 과학자
+comments: true
 ---
 <div class="arconix-box arconix-box-gray">
   <a href="http://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century/">Data Scientist: The Sexiest Job of the 21st Century</a>
