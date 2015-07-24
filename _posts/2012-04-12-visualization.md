@@ -26,7 +26,7 @@ GWAS로부터의 검정결과는 분석에 사용하는 DNA chip에 따라 차�
 
 만약 분석에 사용된 모든 SNP에 대해 형질과의 관련성에 대해 검정을 할 때 관련성이 없다는 귀무가설이 바르다고 하면 모든 p-값은 0과 1 사이의 균일분포(uniform distribution)를 따르게 될 것입니다. 만약 관련성이 있다는 대립가설이 바르다고 한다면 그때의 p-값은 균일분포로 부터 벗어나게 됩니다.  
 
-{% include image.html img="https://farm4.staticflickr.com/3734/9204620249_19d7b658d3_o.jpg" caption="관련성이 있는 SNP가 있다면 그때의 p-값은 이론값보다 작아짐" %}
+{% include image.html img="images/2012-04-12-fig1.jpg" caption="관련성이 있는 SNP가 있다면 그때의 p-값은 이론값보다 작아짐" %}
 
 이 사실을 이용하여 이론적인 분포(균일분포)에서의 p-값과 실제 계산된 p-값을 그래프로 작성한 것이 qq-plot입니다. 즉, 관련성 검정의 대상이 되는 SNP 수를 n, 검정결과 i-번째로 작은 p-값을 $$ p_{(i)} $$라고 하면  
 
