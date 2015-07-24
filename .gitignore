@@ -3,7 +3,7 @@ _site
 .DS_Store
 Gemfile
 Gemfile.lock
-.python-version/
+.python-version
 mitrad.github.io.Rproj
 
 # History files
