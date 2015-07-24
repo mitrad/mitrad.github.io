@@ -12,6 +12,7 @@ categories:
 tags:
   - Genome-wide association analysis
   - Next Generation Sequencer
+comments: true
 ---
 ### 6. 맺음말 
 
@@ -23,7 +24,7 @@ tags:
   
 GWAS는 원인 유전자좌 영역의 추출 및 위치를 탐색하는 것이 목적이므로 그 결과에 대한 의학적, 생물학적 기능에 대한 해석이 불가능하다면 분석결과를 신약개발, 개인의료 등에 응용하기 어렵게 됩니다.
 
-[<img src="http://i0.wp.com/wsyang.com/wp-content/uploads/2012/04/picture1.jpg?resize=512%2C341" alt="" title="picture1" class="aligncenter size-full wp-image-2780" data-recalc-dims="1" />][1]
+![](https://farm3.staticflickr.com/2838/9201405780_88b3ffd0c3_z.jpg)
 
 게다가 GWAS에서는 형질과 관련성이 있는 진짜 SNP를 탐색하는 것이 아니라 매우 가까운 위치에 있는 SNP를 탐지하게 되는 경우도 많다고 앞서 설명했습니다. 이 때문에 진짜 관련 유전자 좌를 찾아내기 위해 GWAS로 얻어낸 후보 SNP좌위의 근처에 있는 유전자 좌를 더 자세히 조사해 보아야할 필요가 있습니다. 이때 각 배우자(정자 및 난자)의 염기배열(haplotype)을 추정하여 형질과의 관계성을 조사하는 방법도 많이 사용됩니다.
 
@@ -31,12 +32,9 @@ GWAS는 원인 유전자좌 영역의 추출 및 위치를 탐색하는 것이 �
 
 마지막으로 게놈데이터 분석을 위해서 유닉스(특히 리눅스) 환경은 이제 필수라고 해도 과언이 아닙니다. GWAS만 해도 파일 사이즈가 보통 수 GB ~ 수십GB의 데이터를 핸들링하게 되는데 스팩이 좋은 PC라고 해도 GUI 환경에서 이를 다루기는 무리가 있습니다.
 
-[<img src="http://i1.wp.com/wsyang.com/wp-content/uploads/2012/04/picture2.jpg?resize=512%2C340" alt="" title="picture2" class="aligncenter size-full wp-image-2781" data-recalc-dims="1" />][2]
+![](https://farm3.staticflickr.com/2858/9201405756_1ca71829ae_z.jpg)
 
 분석에 이용하는 소프트웨어도 대부분 CUI 환경을 기반으로 하고 있고 윈도즈용은 아예 없을 때도 많습니다. 게다가 요즘 NGS 데이터 분석이 점점 주류가 되고 있는데 이런 데이터를 분석하기 위해서는 고성능 병렬 계산기와 대용량의 저장공간이 필요합니다. 즉, 요즘 유행하는 빅데이터 분석을 위한 도구가 필요하죠. 이를 윈도즈 환경에서 구축하기란 불가능하지 않을까요?
 
 이것으로 GWAS로 배우는 유전통계학 연재를 마치도록 하겠습니다.  
 부족한 글 보아 주셔서 감사합니다. ^^;
-
- [1]: http://i0.wp.com/wsyang.com/wp-content/uploads/2012/04/picture1.jpg
- [2]: http://i1.wp.com/wsyang.com/wp-content/uploads/2012/04/picture2.jpg

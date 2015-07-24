@@ -76,11 +76,9 @@ $$
 의 관계를 이용해 p 값이 큰 것으로부터 평가하여 최초로 부등식이 성립되게 될 때, 이보다 작은 p 값을 가지는 SNP는 모두 유의성(관련성)이 있다고 판단하는 방법입니다.
 
 이번 포스팅에서는 다중비교 문제에 대해 비교적 계산이 간단한 두 가지 보정방법에 대해 알아보았습니다만 가장 정확하다고 할 보정방법은 permutation test를 이용한 방법이라 할 수 있겠습니다. 그러나 현실적으로는 사용하기 불가능할 정도로 계산량이 많아서 이를 해결하기 위한 방법 또한 활발히 연구가 진행되고 있습니다.  
-요즘 제가 즐겨 쓰는 방법은 SLIDE(a Sliding-window approach for Locally Inter-correlated markers with asymptotic Distribution Errors corrected)라는 방법이 있는데 자세한 사항은 [이곳][1]을 참조하시길 바랍니다. 저자가 한국분이신 것 같네요.
+요즘 제가 즐겨 쓰는 방법은 SLIDE(a Sliding-window approach for Locally Inter-correlated markers with asymptotic Distribution Errors corrected)라는 방법이 있는데 자세한 사항은 [이곳](http://slide.cs.ucla.edu/)을 참조하시길 바랍니다. 저자가 한국분이신 것 같네요.
 
 ## 참고문헌
 
 1.  Benjamini Y, and Hochberg Y. (1995) J. Roy. Stat. Soc. B., 57, 289-300
 2.  鎌谷直之 (2007) 遺伝統計学入門, 岩波書店 (카마타니 나오유키 (2007), 유전통계학 입문, 이와나미서점 )
-
- [1]: http://slide.cs.ucla.edu/
