@@ -253,7 +253,7 @@ img.caption {
 
     .image-caption {
         color: #7a7a7a;
-        margin-top: $spacing-unit / 3;
+        margin-top: 1rem / 3;
     }
 }
 
