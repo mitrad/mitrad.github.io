@@ -48,7 +48,7 @@ github:
 
 pages_list:
   About: '/about'
-  Feed: '/atom.xml'
+  RSS: '/atom.xml'
 
 # Genrate Sitemap
 # https://help.github.com/articles/sitemaps-for-github-pages/
