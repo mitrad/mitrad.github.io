@@ -31,7 +31,7 @@ relative_permalinks: true
 highlighter: pygments
 
 # Setup
-title:            memoRandum for data analytics
+title:            wsyang.com
 tagline:          memoRandum for data analytics
 url:              http://wsyang.com
 paginate:         20
