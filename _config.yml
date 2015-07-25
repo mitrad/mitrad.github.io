@@ -31,15 +31,15 @@ relative_permalinks: true
 highlighter: pygments
 
 # Setup
-title:            Woosung Yang
+title:            memoRandum for data analytics
 tagline:          memoRandum for data analytics
 url:              http://wsyang.com
 paginate:         20
 baseurl:          /
 author:
   name:           Woosung Yang
-  url:            https://twitter.com/wyang72
-  email:          wyang72@gmail.com
+  url:            http://wyang.com
+  email:          webmaster.wsyang.com
 
 # Custom vars
 version:          1.0.0
