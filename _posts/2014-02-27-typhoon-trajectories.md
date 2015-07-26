@@ -127,10 +127,7 @@ National Climatic Data Center에서 제공하는 [International Best Track Archi
 그나저나 구글맵 쓸때마다 저 Sea of Japan이 참 거슬리네...
 
 > 구글아 구글아 
-
 > 동해를 내놓아라
-
 > 내어놓지 않으면
-
 > 구워서 먹으리.
 
