@@ -26,7 +26,7 @@ kramdown:
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+# relative_permalinks: true
 
 highlighter: pygments
 
