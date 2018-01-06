@@ -16,11 +16,11 @@ comments: true
 
 보통 간단한 집계나 기초통계량은 함수 `summarise()`를 이용하여 새로운 데이터 프레임을 만들거나, 함수 `mutate()` 함수를 이용하여 기존 데이터 프레임에 새로운 열을 추가하곤 한다. 이때 하나의 변수에 대한 처리는 앞 두 함수를 쓰면 문제가 없는데 두 개 이상의 변수에 대한 처리에 유용하게 쓸 수 있는 함수가 있으니 바로 `summarise_each()`와 `mutate_each()` 이다. 
 
-`dplyr` 패키지가 세상에 처음 모습을 드러냈을 때에는 포함 되어 있지 않았던 함수라 [패키지 소개글](http://wsyang.com/2014/02/introduction-to-dplyr/)에는 누락되어 있으니 이번 기회에 정리해 보자.
+`dplyr` 패키지가 세상에 처음 모습을 드러냈을 때는 없었던 함수라 [패키지 소개 글](http://wsyang.com/2014/02/introduction-to-dplyr/)에는 빠져 있으니 이번 기회에 정리해 보자.
 
 ## summarise_each()의 사용법
 
-예를들어 다음과 같이 하나의 변수에 대해 복수의 통계값을 구한다 하자.
+예를 들어 다음과 같이 하나의 변수에 대해 복수의 통계치를 구한다 하자.
 
 
 {% highlight r %}
@@ -35,15 +35,15 @@ comments: true
 
 
 {% highlight text %}
-#> Source: local data frame [3 x 5]
-#> 
-#>      Species min.sl mean.sl median.sl max.sl
-#> 1     setosa    4.3    5.01       5.0    5.8
-#> 2 versicolor    4.9    5.94       5.9    7.0
-#> 3  virginica    4.9    6.59       6.5    7.9
+#> # A tibble: 3 x 5
+#>   Species    min.sl mean.sl median.sl max.sl
+#>   <fctr>      <dbl>   <dbl>     <dbl>  <dbl>
+#> 1 setosa       4.30    5.01      5.00   5.80
+#> 2 versicolor   4.90    5.94      5.90   7.00
+#> 3 virginica    4.90    6.59      6.50   7.90
 {% endhighlight %}
 
-하나의 변수라면 이정도야 하고 넘어가겠지만 이것이 여러 변수에 동일한 처리를 하고자 하면 갑자기 암울해 지고 일하기 싫어지기 마련이다. 
+하나의 변수라면 이 정도야 하고 넘어가겠지만, 이것이 여러 변수에 같은 처리를 하고자 하면 갑자기 암울해 지고 일하기 싫어지기 마련이다. 
 
 
 {% highlight r %}
@@ -61,16 +61,15 @@ comments: true
 
 
 {% highlight text %}
-#> Source: local data frame [3 x 9]
-#> 
-#>      Species min.sl mean.sl median.sl max.sl min.sw mean.sw median.sw
-#> 1     setosa    4.3    5.01       5.0    5.8    2.3    3.43       3.4
-#> 2 versicolor    4.9    5.94       5.9    7.0    2.0    2.77       2.8
-#> 3  virginica    4.9    6.59       6.5    7.9    2.2    2.97       3.0
-#> Variables not shown: max.sw (dbl)
+#> # A tibble: 3 x 9
+#>   Species    min.sl mean.sl median.sl max.sl min.sw mean… medi… max.…
+#>   <fctr>      <dbl>   <dbl>     <dbl>  <dbl>  <dbl> <dbl> <dbl> <dbl>
+#> 1 setosa       4.30    5.01      5.00   5.80   2.30  3.43  3.40  4.40
+#> 2 versicolor   4.90    5.94      5.90   7.00   2.00  2.77  2.80  3.40
+#> 3 virginica    4.90    6.59      6.50   7.90   2.20  2.97  3.00  3.80
 {% endhighlight %}
 
-요즘 우리나라 언론에서 절찬리에 사용되고 있는 Copy & Paste 기술을 시전하여 변수명만 바꾸면 되겠지만 이것도 중간에 빼먹고 바꾸지 않은 변수가 섞여 있기도 쉽고 일단 하다보면 귀찮다. 이럴때 함수 `summarise_each()`를 이용하면 간단하게 처리할 수 있다. 
+요즘 우리나라 언론에서 절찬리에 사용되고 있는 Copy & Paste 기술을 시전하여 변수명만 바꾸면 되겠지만, 이것도 중간에 빼먹고 바꾸지 않은 변수가 섞여 있기도 쉽고 일단 하다 보면 귀찮다. 이럴 때 함수 `summarise_each()`를 이용하면 간단하게 처리할 수 있다. 
 
 
 {% highlight r %}
@@ -81,22 +80,27 @@ comments: true
 
 
 {% highlight text %}
-#> Source: local data frame [3 x 9]
-#> 
-#>      Species Sepal.Length_min Sepal.Width_min Sepal.Length_mean
-#> 1     setosa              4.3             2.3              5.01
-#> 2 versicolor              4.9             2.0              5.94
-#> 3  virginica              4.9             2.2              6.59
-#> Variables not shown: Sepal.Width_mean (dbl), Sepal.Length_median
-#>   (dbl), Sepal.Width_median (dbl), Sepal.Length_max (dbl),
-#>   Sepal.Width_max (dbl)
+#> `summarise_each()` is deprecated.
+#> Use `summarise_all()`, `summarise_at()` or `summarise_if()` instead.
+#> To map `funs` over a selection of variables, use `summarise_at()`
+{% endhighlight %}
+
+
+
+{% highlight text %}
+#> # A tibble: 3 x 9
+#>   Species    Sepal.… Sepal… Sepal.… Sepal… Sepal… Sepal… Sepal… Sepa…
+#>   <fctr>       <dbl>  <dbl>   <dbl>  <dbl>  <dbl>  <dbl>  <dbl> <dbl>
+#> 1 setosa        4.30   2.30    5.01   3.43   5.00   3.40   5.80  4.40
+#> 2 versicolor    4.90   2.00    5.94   2.77   5.90   2.80   7.00  3.40
+#> 3 virginica     4.90   2.20    6.59   2.97   6.50   3.00   7.90  3.80
 {% endhighlight %}
 
 함수 `summarise_each()`의 첫번째 인자에 구하고 싶은 함수를 `funs()`안에 넣고 다음에 대상이 되는 변수를 나열하면 된다. 
 
 ### mutate_each() 사용법
 
-iris 데이터에서 각 종별로 순위 및 percentile을 구해 원 데이터에 열을 추가하고 싶다면
+iris 데이터에서 종별로 순위(rank) 및 percentile을 구해 원 데이터에 새로운 변수로 추가하고 싶다면
 
 
 {% highlight r %}
@@ -107,30 +111,35 @@ iris 데이터에서 각 종별로 순위 및 percentile을 구해 원 데이터
 
 
 {% highlight text %}
-#> Source: local data frame [150 x 9]
-#> Groups: Species
-#> 
-#>    Sepal.Length Sepal.Width Petal.Length Petal.Width Species
-#> 1           5.1         3.5          1.4         0.2  setosa
-#> 2           4.9         3.0          1.4         0.2  setosa
-#> 3           4.7         3.2          1.3         0.2  setosa
-#> 4           4.6         3.1          1.5         0.2  setosa
-#> 5           5.0         3.6          1.4         0.2  setosa
-#> 6           5.4         3.9          1.7         0.4  setosa
-#> 7           4.6         3.4          1.4         0.3  setosa
-#> 8           5.0         3.4          1.5         0.2  setosa
-#> 9           4.4         2.9          1.4         0.2  setosa
-#> 10          4.9         3.1          1.5         0.1  setosa
-#> ..          ...         ...          ...         ...     ...
-#> Variables not shown: Sepal.Length_min_rank (int),
-#>   Sepal.Width_min_rank (int), Sepal.Length_cume_dist (dbl),
-#>   Sepal.Width_cume_dist (dbl)
+#> `mutate_each()` is deprecated.
+#> Use `mutate_all()`, `mutate_at()` or `mutate_if()` instead.
+#> To map `funs` over a selection of variables, use `mutate_at()`
+{% endhighlight %}
+
+
+
+{% highlight text %}
+#> # A tibble: 150 x 9
+#> # Groups: Species [3]
+#>    Sepal.Length Sepal… Petal… Petal… Speci… Sepa… Sepa… Sepal… Sepal…
+#>           <dbl>  <dbl>  <dbl>  <dbl> <fctr> <int> <int>  <dbl>  <dbl>
+#>  1         5.10   3.50   1.40  0.200 setosa    29    29 0.720  0.680 
+#>  2         4.90   3.00   1.40  0.200 setosa    17     3 0.400  0.160 
+#>  3         4.70   3.20   1.30  0.200 setosa    10    13 0.220  0.340 
+#>  4         4.60   3.10   1.50  0.200 setosa     6     9 0.180  0.240 
+#>  5         5.00   3.60   1.40  0.200 setosa    21    35 0.560  0.740 
+#>  6         5.40   3.90   1.70  0.400 setosa    41    45 0.900  0.920 
+#>  7         4.60   3.40   1.40  0.300 setosa     6    20 0.180  0.560 
+#>  8         5.00   3.40   1.50  0.200 setosa    21    20 0.560  0.560 
+#>  9         4.40   2.90   1.40  0.200 setosa     2     2 0.0800 0.0400
+#> 10         4.90   3.10   1.50  0.100 setosa    17     9 0.400  0.240 
+#> # ... with 140 more rows
 {% endhighlight %}
 
 
 ### 추가 Tips
  
- 위 예에서 선택한 변수는 모두 *Sepal*이라는 문자열으로 시작하며 iris 데이터의 다른 변수는 *Sepal*로 시작하는 변수는 없다. 
+ 위 예에서 선택한 변수는 모두 *Sepal*이라는 문자열로 시작한다. 또한, iris 데이터의 다른 변수는 *Sepal*로 시작하지 않는다.
 
 
 {% highlight r %}
@@ -155,18 +164,15 @@ iris %>% group_by(Species) %>%
 
 
 {% highlight text %}
-#> Source: local data frame [3 x 9]
-#> 
-#>      Species Sepal.Length_min Sepal.Width_min Sepal.Length_mean
-#> 1     setosa              4.3             2.3              5.01
-#> 2 versicolor              4.9             2.0              5.94
-#> 3  virginica              4.9             2.2              6.59
-#> Variables not shown: Sepal.Width_mean (dbl), Sepal.Length_median
-#>   (dbl), Sepal.Width_median (dbl), Sepal.Length_max (dbl),
-#>   Sepal.Width_max (dbl)
+#> # A tibble: 3 x 9
+#>   Species    Sepal.… Sepal… Sepal.… Sepal… Sepal… Sepal… Sepal… Sepa…
+#>   <fctr>       <dbl>  <dbl>   <dbl>  <dbl>  <dbl>  <dbl>  <dbl> <dbl>
+#> 1 setosa        4.30   2.30    5.01   3.43   5.00   3.40   5.80  4.40
+#> 2 versicolor    4.90   2.00    5.94   2.77   5.90   2.80   7.00  3.40
+#> 3 virginica     4.90   2.20    6.59   2.97   6.50   3.00   7.90  3.80
 {% endhighlight %}
 
-함수 `starts_with()`와 함께 알아두면 좋을 함수는 다음과 같은 것들이 있다. 단, 이하 함수군은 함수 `select()`, `summarise_each()`, `mutate_each()` 안에서만 사용할 수 있으니 주의해야 한다. 
+함수 `starts_with()`와 함께 알아두면 좋을 함수는 다음과 같은 것들이 있다. 단, 이하 함수 군은  `select()`, `summarise_each()`, `mutate_each()` 함수 안에서만 사용할 수 있으니 주의해야 한다. 
 
   |함수 |설명|
   |-|-|
@@ -178,5 +184,5 @@ iris %>% group_by(Species) %>%
   |one_of("x", "y", "z")| "x", "y", "z" 중 어느 하나라도 해당하는 변수를 선택|
   |everything | 모든 변수를 선택|
 
-정규표현식에 자신이 있는 사람은 변수명 선택에 대단한 효율성을 가지게 될 것같다. (여기서도 결론은 정규표현식인가...) 
-아무튼 나같이 영타자가 느리고 귀찮은 것 싫어하는 사람에게 `_each()` 함수의 도입은 감사할 따름이다. 땡큐 [Hadley Wickham](http://priceonomics.com/hadley-wickham-the-man-who-revolutionized-r/?utm_campaign=Data%2BElixir&utm_medium=email&utm_source=Data_Elixir_46)!!
+정규표현식에 자신이 있는 사람은 변수명 선택에 대단한 효율성을 가지게 될 것 같다. (여기서도 결론은 정규표현식인가...) 
+아무튼 나같이 영타가 느리고 귀찮은 것 싫어하는 사람에게 `_each()` 함수의 도입은 감사할 따름이다. 땡큐 [Hadley Wickham](http://priceonomics.com/hadley-wickham-the-man-who-revolutionized-r/?utm_campaign=Data%2BElixir&utm_medium=email&utm_source=Data_Elixir_46)!!
