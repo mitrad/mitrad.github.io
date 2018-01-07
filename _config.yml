@@ -52,11 +52,12 @@ pages_list:
 
 # Genrate Sitemap
 # https://help.github.com/articles/sitemaps-for-github-pages/
-gems:
+plugins:
    - jekyll-mentions
    - jemoji
    - jekyll-redirect-from
    - jekyll-sitemap
    - jekyll-feed
    
-exclude: ['*.Rmd']   
+exclude: ['*.Rmd']
+github: [metadata]
