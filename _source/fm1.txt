@@ -1,0 +1,16 @@
+% latex table generated in R 3.4.3 by xtable 1.8-2 package
+% Sat Jan  6 21:30:41 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+sex & 1 & 75.37 & 75.37 & 0.38 & 0.5417 \\ 
+  ethnicty & 3 & 2572.15 & 857.38 & 4.27 & 0.0072 \\ 
+  grade & 1 & 36.31 & 36.31 & 0.18 & 0.6717 \\ 
+  disadvg & 1 & 59.30 & 59.30 & 0.30 & 0.5882 \\ 
+  Residuals & 93 & 18682.87 & 200.89 &  &  \\ 
+   \hline
+\end{tabular}
+\end{table}

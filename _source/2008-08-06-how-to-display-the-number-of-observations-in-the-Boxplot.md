@@ -1,0 +1,41 @@
+---
+title: '[R] Boxplot에 관측치의 수를 표시하는 방법'
+layout: post
+permalink: /2008/08/r-boxplot%ec%97%90-%ea%b4%80%ec%b8%a1%ec%b9%98%ec%9d%98-%ec%88%98%eb%a5%bc-%ed%91%9c%ec%8b%9c%ed%95%98%eb%8a%94-%eb%b0%a9%eb%b2%95/
+dsq_thread_id:
+  - 305893290
+categories:
+  - R
+tags:
+  - Boxplot
+  - R
+  - R-tip
+  - R-Tips
+comments: true
+---
+
+Boxplot에서 관측치의 수를 나타내고 싶은 경우, 여러 가지 방법이 있겠지만, 함수 text() 혹은 mtext()를 사용하는 것이 가장 간단하지 않을까 싶다. 함수 text()가 그래프 안에 관측치의 수를 표시하는 반면 mtext()는 그래프의 축(axis)에 표시하는 차이가 있다.
+
+
+{% highlight r %}
+> y <- rnorm(50)
+> x <- factor(sample(letters[1:5], 50, replace = T))
+> boxplot(y ~ x, col = "lightgray")
+> text(1:5, rep(min(y), 5), paste("n=", tapply(y, x, length)))
+{% endhighlight %}
+
+![plot of chunk unnamed-chunk-1](/figure/./_source/2008-08-06-how-to-display-the-number-of-observations-in-the-Boxplot/unnamed-chunk-1-1.png)
+
+위 예의 경우 boxplot과 관측치의 수가 겹쳐버리게 되어 보기가 좀 불편해진다. 이런 경우 mtext() 함수를 이용하면 
+
+
+{% highlight r %}
+> X <- boxplot(y ~ x, col = "lightgray")
+> mtext(side=1, line = 2, at = 1:5, paste("n=", X$n, sep=""))
+{% endhighlight %}
+
+![plot of chunk unnamed-chunk-2](/figure/./_source/2008-08-06-how-to-display-the-number-of-observations-in-the-Boxplot/unnamed-chunk-2-1.png)
+
+X축의 범주(a,..,e) 밑에 관측치의 수를 나타냄으로써 좀 더 깔끔하게 만들 수 있다.
+
+ 
